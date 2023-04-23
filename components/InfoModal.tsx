@@ -43,6 +43,7 @@ const InfoModal: React.FC<InfoModalProps> = ({ visible, onClose }) => {
 				>
 					<div className="relative h-96">
 						<img
+						alt=''
 							src={data?.thumbnailUrl}
 							className="w-full brightness-[60%] object-cover h-full"
 						/>
